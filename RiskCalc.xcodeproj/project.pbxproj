@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		472B8E011A52506F0074E07B /* IssuerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 472B8E001A52506F0074E07B /* IssuerData.m */; };
+		472B8E041A52507F0074E07B /* RiskData.m in Sources */ = {isa = PBXBuildFile; fileRef = 472B8E031A52507F0074E07B /* RiskData.m */; };
+		472B8E071A539ADF0074E07B /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 472B8E061A539ADF0074E07B /* GCDAsyncSocket.m */; };
+		474268891A577ACC00856AE2 /* run.sh in Resources */ = {isa = PBXBuildFile; fileRef = 474268741A577ACC00856AE2 /* run.sh */; };
+		4742688A1A577ACC00856AE2 /* SBB_0001.txt in Resources */ = {isa = PBXBuildFile; fileRef = 474268751A577ACC00856AE2 /* SBB_0001.txt */; };
+		4742688B1A577ACC00856AE2 /* SBB_0002.txt in Resources */ = {isa = PBXBuildFile; fileRef = 474268761A577ACC00856AE2 /* SBB_0002.txt */; };
+		4742688C1A577ACC00856AE2 /* SBB_0003.txt in Resources */ = {isa = PBXBuildFile; fileRef = 474268771A577ACC00856AE2 /* SBB_0003.txt */; };
+		4742688D1A577ACC00856AE2 /* SBB_0004.txt in Resources */ = {isa = PBXBuildFile; fileRef = 474268781A577ACC00856AE2 /* SBB_0004.txt */; };
+		4742688E1A577ACC00856AE2 /* SBB_0005.txt in Resources */ = {isa = PBXBuildFile; fileRef = 474268791A577ACC00856AE2 /* SBB_0005.txt */; };
+		4742688F1A577ACC00856AE2 /* SBB_0006.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4742687A1A577ACC00856AE2 /* SBB_0006.txt */; };
+		474268901A577ACC00856AE2 /* SBB_0007.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4742687B1A577ACC00856AE2 /* SBB_0007.txt */; };
+		474268911A577ACC00856AE2 /* SBB_0008.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4742687C1A577ACC00856AE2 /* SBB_0008.txt */; };
+		474268921A577ACC00856AE2 /* SBB_0009.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4742687D1A577ACC00856AE2 /* SBB_0009.txt */; };
+		474268931A577ACC00856AE2 /* SBB_0010.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4742687E1A577ACC00856AE2 /* SBB_0010.txt */; };
+		474268941A577ACC00856AE2 /* SBB_0011.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4742687F1A577ACC00856AE2 /* SBB_0011.txt */; };
+		474268951A577ACC00856AE2 /* SBB_0012.txt in Resources */ = {isa = PBXBuildFile; fileRef = 474268801A577ACC00856AE2 /* SBB_0012.txt */; };
+		474268961A577ACC00856AE2 /* server in Resources */ = {isa = PBXBuildFile; fileRef = 474268811A577ACC00856AE2 /* server */; };
+		474268971A577ACC00856AE2 /* T2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 474268821A577ACC00856AE2 /* T2.txt */; };
+		474268981A577ACC00856AE2 /* T5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 474268831A577ACC00856AE2 /* T5.txt */; };
+		474268991A577ACC00856AE2 /* T10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 474268841A577ACC00856AE2 /* T10.txt */; };
+		4742689A1A577ACC00856AE2 /* T30.txt in Resources */ = {isa = PBXBuildFile; fileRef = 474268851A577ACC00856AE2 /* T30.txt */; };
+		4742689B1A577ACC00856AE2 /* tradingbook_closing.txt in Resources */ = {isa = PBXBuildFile; fileRef = 474268861A577ACC00856AE2 /* tradingbook_closing.txt */; };
+		4742689C1A577ACC00856AE2 /* tradingbook_opening.txt in Resources */ = {isa = PBXBuildFile; fileRef = 474268871A577ACC00856AE2 /* tradingbook_opening.txt */; };
+		4742689D1A577ACC00856AE2 /* yieldcurve.txt in Resources */ = {isa = PBXBuildFile; fileRef = 474268881A577ACC00856AE2 /* yieldcurve.txt */; };
+		47AB12121A51BA2C009DE499 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB12111A51BA2C009DE499 /* AppDelegate.m */; };
+		47AB12141A51BA2C009DE499 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB12131A51BA2C009DE499 /* main.m */; };
+		47AB12161A51BA2C009DE499 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AB12151A51BA2C009DE499 /* Images.xcassets */; };
+		47AB12191A51BA2C009DE499 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47AB12171A51BA2C009DE499 /* MainMenu.xib */; };
+		47AB12251A51BA2C009DE499 /* RiskCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AB12241A51BA2C009DE499 /* RiskCalcTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47AB121F1A51BA2C009DE499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47AB12031A51BA2C009DE499 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47AB120A1A51BA2C009DE499;
+			remoteInfo = RiskCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		472B8DFF1A52506F0074E07B /* IssuerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssuerData.h; sourceTree = "<group>"; };
+		472B8E001A52506F0074E07B /* IssuerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssuerData.m; sourceTree = "<group>"; };
+		472B8E021A52507F0074E07B /* RiskData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiskData.h; sourceTree = "<group>"; };
+		472B8E031A52507F0074E07B /* RiskData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiskData.m; sourceTree = "<group>"; };
+		472B8E051A539ADF0074E07B /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		472B8E061A539ADF0074E07B /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		474268741A577ACC00856AE2 /* run.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
+		474268751A577ACC00856AE2 /* SBB_0001.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBB_0001.txt; sourceTree = "<group>"; };
+		474268761A577ACC00856AE2 /* SBB_0002.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBB_0002.txt; sourceTree = "<group>"; };
+		474268771A577ACC00856AE2 /* SBB_0003.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBB_0003.txt; sourceTree = "<group>"; };
+		474268781A577ACC00856AE2 /* SBB_0004.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBB_0004.txt; sourceTree = "<group>"; };
+		474268791A577ACC00856AE2 /* SBB_0005.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBB_0005.txt; sourceTree = "<group>"; };
+		4742687A1A577ACC00856AE2 /* SBB_0006.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBB_0006.txt; sourceTree = "<group>"; };
+		4742687B1A577ACC00856AE2 /* SBB_0007.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBB_0007.txt; sourceTree = "<group>"; };
+		4742687C1A577ACC00856AE2 /* SBB_0008.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBB_0008.txt; sourceTree = "<group>"; };
+		4742687D1A577ACC00856AE2 /* SBB_0009.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBB_0009.txt; sourceTree = "<group>"; };
+		4742687E1A577ACC00856AE2 /* SBB_0010.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBB_0010.txt; sourceTree = "<group>"; };
+		4742687F1A577ACC00856AE2 /* SBB_0011.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBB_0011.txt; sourceTree = "<group>"; };
+		474268801A577ACC00856AE2 /* SBB_0012.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SBB_0012.txt; sourceTree = "<group>"; };
+		474268811A577ACC00856AE2 /* server */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = server; sourceTree = "<group>"; };
+		474268821A577ACC00856AE2 /* T2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T2.txt; sourceTree = "<group>"; };
+		474268831A577ACC00856AE2 /* T5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T5.txt; sourceTree = "<group>"; };
+		474268841A577ACC00856AE2 /* T10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T10.txt; sourceTree = "<group>"; };
+		474268851A577ACC00856AE2 /* T30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T30.txt; sourceTree = "<group>"; };
+		474268861A577ACC00856AE2 /* tradingbook_closing.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tradingbook_closing.txt; sourceTree = "<group>"; };
+		474268871A577ACC00856AE2 /* tradingbook_opening.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tradingbook_opening.txt; sourceTree = "<group>"; };
+		474268881A577ACC00856AE2 /* yieldcurve.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yieldcurve.txt; sourceTree = "<group>"; };
+		47AB120B1A51BA2C009DE499 /* RiskCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiskCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AB120F1A51BA2C009DE499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AB12101A51BA2C009DE499 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47AB12111A51BA2C009DE499 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47AB12131A51BA2C009DE499 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47AB12151A51BA2C009DE499 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		47AB12181A51BA2C009DE499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		47AB121E1A51BA2C009DE499 /* RiskCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiskCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AB12231A51BA2C009DE499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AB12241A51BA2C009DE499 /* RiskCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiskCalcTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47AB12081A51BA2C009DE499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AB121B1A51BA2C009DE499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47AB12021A51BA2C009DE499 = {
+			isa = PBXGroup;
+			children = (
+				47AB120D1A51BA2C009DE499 /* RiskCalc */,
+				47AB12211A51BA2C009DE499 /* RiskCalcTests */,
+				47AB120C1A51BA2C009DE499 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47AB120C1A51BA2C009DE499 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47AB120B1A51BA2C009DE499 /* RiskCalc.app */,
+				47AB121E1A51BA2C009DE499 /* RiskCalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47AB120D1A51BA2C009DE499 /* RiskCalc */ = {
+			isa = PBXGroup;
+			children = (
+				47AB12101A51BA2C009DE499 /* AppDelegate.h */,
+				47AB12111A51BA2C009DE499 /* AppDelegate.m */,
+				472B8DFF1A52506F0074E07B /* IssuerData.h */,
+				472B8E001A52506F0074E07B /* IssuerData.m */,
+				472B8E021A52507F0074E07B /* RiskData.h */,
+				472B8E031A52507F0074E07B /* RiskData.m */,
+				47AB12151A51BA2C009DE499 /* Images.xcassets */,
+				47AB12171A51BA2C009DE499 /* MainMenu.xib */,
+				472B8E051A539ADF0074E07B /* GCDAsyncSocket.h */,
+				472B8E061A539ADF0074E07B /* GCDAsyncSocket.m */,
+				47AB120E1A51BA2C009DE499 /* Supporting Files */,
+			);
+			path = RiskCalc;
+			sourceTree = "<group>";
+		};
+		47AB120E1A51BA2C009DE499 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				474268741A577ACC00856AE2 /* run.sh */,
+				474268751A577ACC00856AE2 /* SBB_0001.txt */,
+				474268761A577ACC00856AE2 /* SBB_0002.txt */,
+				474268771A577ACC00856AE2 /* SBB_0003.txt */,
+				474268781A577ACC00856AE2 /* SBB_0004.txt */,
+				474268791A577ACC00856AE2 /* SBB_0005.txt */,
+				4742687A1A577ACC00856AE2 /* SBB_0006.txt */,
+				4742687B1A577ACC00856AE2 /* SBB_0007.txt */,
+				4742687C1A577ACC00856AE2 /* SBB_0008.txt */,
+				4742687D1A577ACC00856AE2 /* SBB_0009.txt */,
+				4742687E1A577ACC00856AE2 /* SBB_0010.txt */,
+				4742687F1A577ACC00856AE2 /* SBB_0011.txt */,
+				474268801A577ACC00856AE2 /* SBB_0012.txt */,
+				474268811A577ACC00856AE2 /* server */,
+				474268821A577ACC00856AE2 /* T2.txt */,
+				474268831A577ACC00856AE2 /* T5.txt */,
+				474268841A577ACC00856AE2 /* T10.txt */,
+				474268851A577ACC00856AE2 /* T30.txt */,
+				474268861A577ACC00856AE2 /* tradingbook_closing.txt */,
+				474268871A577ACC00856AE2 /* tradingbook_opening.txt */,
+				474268881A577ACC00856AE2 /* yieldcurve.txt */,
+				47AB120F1A51BA2C009DE499 /* Info.plist */,
+				47AB12131A51BA2C009DE499 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47AB12211A51BA2C009DE499 /* RiskCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				47AB12241A51BA2C009DE499 /* RiskCalcTests.m */,
+				47AB12221A51BA2C009DE499 /* Supporting Files */,
+			);
+			path = RiskCalcTests;
+			sourceTree = "<group>";
+		};
+		47AB12221A51BA2C009DE499 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47AB12231A51BA2C009DE499 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47AB120A1A51BA2C009DE499 /* RiskCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AB12281A51BA2C009DE499 /* Build configuration list for PBXNativeTarget "RiskCalc" */;
+			buildPhases = (
+				47AB12071A51BA2C009DE499 /* Sources */,
+				47AB12081A51BA2C009DE499 /* Frameworks */,
+				47AB12091A51BA2C009DE499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RiskCalc;
+			productName = RiskCalc;
+			productReference = 47AB120B1A51BA2C009DE499 /* RiskCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47AB121D1A51BA2C009DE499 /* RiskCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AB122B1A51BA2C009DE499 /* Build configuration list for PBXNativeTarget "RiskCalcTests" */;
+			buildPhases = (
+				47AB121A1A51BA2C009DE499 /* Sources */,
+				47AB121B1A51BA2C009DE499 /* Frameworks */,
+				47AB121C1A51BA2C009DE499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47AB12201A51BA2C009DE499 /* PBXTargetDependency */,
+			);
+			name = RiskCalcTests;
+			productName = RiskCalcTests;
+			productReference = 47AB121E1A51BA2C009DE499 /* RiskCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47AB12031A51BA2C009DE499 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kailun Wu";
+				TargetAttributes = {
+					47AB120A1A51BA2C009DE499 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					47AB121D1A51BA2C009DE499 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 47AB120A1A51BA2C009DE499;
+					};
+				};
+			};
+			buildConfigurationList = 47AB12061A51BA2C009DE499 /* Build configuration list for PBXProject "RiskCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47AB12021A51BA2C009DE499;
+			productRefGroup = 47AB120C1A51BA2C009DE499 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47AB120A1A51BA2C009DE499 /* RiskCalc */,
+				47AB121D1A51BA2C009DE499 /* RiskCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47AB12091A51BA2C009DE499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474268941A577ACC00856AE2 /* SBB_0011.txt in Resources */,
+				4742688B1A577ACC00856AE2 /* SBB_0002.txt in Resources */,
+				4742689B1A577ACC00856AE2 /* tradingbook_closing.txt in Resources */,
+				474268921A577ACC00856AE2 /* SBB_0009.txt in Resources */,
+				474268911A577ACC00856AE2 /* SBB_0008.txt in Resources */,
+				4742688D1A577ACC00856AE2 /* SBB_0004.txt in Resources */,
+				474268971A577ACC00856AE2 /* T2.txt in Resources */,
+				4742688C1A577ACC00856AE2 /* SBB_0003.txt in Resources */,
+				474268981A577ACC00856AE2 /* T5.txt in Resources */,
+				4742689D1A577ACC00856AE2 /* yieldcurve.txt in Resources */,
+				474268931A577ACC00856AE2 /* SBB_0010.txt in Resources */,
+				474268891A577ACC00856AE2 /* run.sh in Resources */,
+				474268991A577ACC00856AE2 /* T10.txt in Resources */,
+				4742688A1A577ACC00856AE2 /* SBB_0001.txt in Resources */,
+				474268901A577ACC00856AE2 /* SBB_0007.txt in Resources */,
+				474268951A577ACC00856AE2 /* SBB_0012.txt in Resources */,
+				4742688E1A577ACC00856AE2 /* SBB_0005.txt in Resources */,
+				47AB12161A51BA2C009DE499 /* Images.xcassets in Resources */,
+				4742689A1A577ACC00856AE2 /* T30.txt in Resources */,
+				474268961A577ACC00856AE2 /* server in Resources */,
+				4742688F1A577ACC00856AE2 /* SBB_0006.txt in Resources */,
+				4742689C1A577ACC00856AE2 /* tradingbook_opening.txt in Resources */,
+				47AB12191A51BA2C009DE499 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AB121C1A51BA2C009DE499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47AB12071A51BA2C009DE499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472B8E041A52507F0074E07B /* RiskData.m in Sources */,
+				472B8E071A539ADF0074E07B /* GCDAsyncSocket.m in Sources */,
+				472B8E011A52506F0074E07B /* IssuerData.m in Sources */,
+				47AB12141A51BA2C009DE499 /* main.m in Sources */,
+				47AB12121A51BA2C009DE499 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AB121A1A51BA2C009DE499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AB12251A51BA2C009DE499 /* RiskCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47AB12201A51BA2C009DE499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47AB120A1A51BA2C009DE499 /* RiskCalc */;
+			targetProxy = 47AB121F1A51BA2C009DE499 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47AB12171A51BA2C009DE499 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AB12181A51BA2C009DE499 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47AB12261A51BA2C009DE499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		47AB12271A51BA2C009DE499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		47AB12291A51BA2C009DE499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RiskCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47AB122A1A51BA2C009DE499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RiskCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47AB122C1A51BA2C009DE499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RiskCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiskCalc.app/Contents/MacOS/RiskCalc";
+			};
+			name = Debug;
+		};
+		47AB122D1A51BA2C009DE499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RiskCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiskCalc.app/Contents/MacOS/RiskCalc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47AB12061A51BA2C009DE499 /* Build configuration list for PBXProject "RiskCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AB12261A51BA2C009DE499 /* Debug */,
+				47AB12271A51BA2C009DE499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47AB12281A51BA2C009DE499 /* Build configuration list for PBXNativeTarget "RiskCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AB12291A51BA2C009DE499 /* Debug */,
+				47AB122A1A51BA2C009DE499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47AB122B1A51BA2C009DE499 /* Build configuration list for PBXNativeTarget "RiskCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AB122C1A51BA2C009DE499 /* Debug */,
+				47AB122D1A51BA2C009DE499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47AB12031A51BA2C009DE499 /* Project object */;
+}
